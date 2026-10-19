@@ -1,0 +1,42 @@
+{
+  "name": "parador-familiar-las-americas",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sitio web del Parador Familiar Las Américas — km 23, Autopista Las Américas.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.mjs",
+    "build": "vite build && node scripts/postbuild.mjs",
+    "start": "cross-env NODE_ENV=production node server/index.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "images": "node scripts/optimize-images.mjs",
+    "admin:setup": "node scripts/admin-setup.mjs",
+    "admin:hash": "node scripts/admin-hash.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.1.0",
+    "@fontsource-variable/manrope": "^5.1.0",
+    "@vercel/blob": "^0.27.3",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "motion": "^11.15.0",
+    "multer": "^2.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

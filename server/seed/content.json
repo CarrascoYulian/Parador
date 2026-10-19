@@ -1,0 +1,96 @@
+{
+  "site": {
+    "name": "Parador Familiar Las Américas",
+    "slogan": "¡Donde la familia es el centro!",
+    "address": "Marginal Autopista Las Américas, km 23, El Valiente, Santo Domingo Este",
+    "addressShort": "Marginal Autopista Las Américas, km 23",
+    "lat": 18.4558677,
+    "lng": -69.6995881,
+    "whatsapp": "",
+    "phone": "",
+    "instagram": "https://www.instagram.com/paradorfamiliarlasamericas/",
+    "pedidosya": "https://www.pedidosya.com.do/restaurantes/boca-chica/parador-familiar-las-americas-74b2b384-4d70-4d1a-9e33-986de808703b-menu",
+    "threads": "https://www.threads.com/@paradorfamiliarlasamericas",
+    "rating": { "value": 4.3, "count": 120, "source": "Google Maps", "show": true },
+    "priceRange": "RD$500–1,000 por persona",
+    "notice": ""
+  },
+  "hours": [
+    { "day": 1, "open": "08:00", "close": "19:00", "closed": false },
+    { "day": 2, "open": "08:00", "close": "19:00", "closed": false },
+    { "day": 3, "open": "08:00", "close": "19:00", "closed": false },
+    { "day": 4, "open": "08:00", "close": "19:00", "closed": false },
+    { "day": 5, "open": "08:00", "close": "19:00", "closed": false },
+    { "day": 6, "open": "08:00", "close": "19:00", "closed": false },
+    { "day": 7, "open": "08:00", "close": "19:00", "closed": true }
+  ],
+  "copy": {
+    "heroEyebrow": "Km 23 · Autopista Las Américas",
+    "heroTitle": "Una parada que sabe a casa.",
+    "heroText": "Comida dominicana, parrilla y una terraza con palmas al fondo. Para el desayuno temprano, el almuerzo en familia o la última parada antes de llegar a casa.",
+    "placeTitle": "En el camino, pero sin prisa.",
+    "placeText": "Vayas al aeropuerto, a la playa o de regreso a la ciudad, aquí encuentras una pausa de verdad: un edificio amplio y luminoso, parqueo cómodo y mesas para sentarte con calma, abajo o en la terraza.",
+    "kitchenTitle": "Sabores que merecen una parada.",
+    "kitchenText": "Cocina dominicana de todos los días y platos de la parrilla. Escoge lo que te provoque y acompáñalo a tu gusto.",
+    "terraceTitle": "Arriba, la terraza.",
+    "terraceText": "Sube al segundo nivel: ventanales de piso a techo, luz del Caribe y palmas al fondo. Es el lugar que más nos recomiendan para sentarse a comer.",
+    "marketTitle": "Antes de seguir, pasa por el mini market.",
+    "marketText": "Bebidas, meriendas y productos para la casa o para el camino, en el mismo lugar donde comes.",
+    "closingTitle": "Te esperamos en el km 23."
+  },
+  "menu": {
+    "categories": [
+      { "id": "del-dia", "name": "Comida del día", "description": "Cocina típica dominicana. Escoge tu plato fuerte y sus contornos." },
+      { "id": "parrilla", "name": "De la parrilla", "description": "Directo del fuego, para compartir o para ti solo." },
+      { "id": "contornos", "name": "Contornos", "description": "Para armar el plato a tu manera." },
+      { "id": "sandwiches", "name": "Sándwiches", "description": "Algo rápido sin renunciar al sabor." },
+      { "id": "bebidas", "name": "Bebidas", "description": "Para acompañar." }
+    ],
+    "items": [
+      { "id": "pollo-caja-china", "name": "Pollo a la caja china", "description": "Dorado parejo, piel crujiente y jugoso por dentro. Uno de los favoritos de la casa.", "category": "del-dia", "price": null, "image": "/images/pollo-caja-china.webp", "featured": true, "active": true, "source": "Instagram (publicación 02/08/2025)" },
+      { "id": "chivo", "name": "Chivo", "description": "Uno de los platos que más mencionan quienes nos visitan.", "category": "del-dia", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps — confirmar preparación" },
+      { "id": "costillas-cerdo", "name": "Costillas de cerdo", "description": "En salsa chimichurri o barbacoa.", "category": "del-dia", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "pollo-frito", "name": "Pollo frito", "description": "Crujiente, como en casa.", "category": "del-dia", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "pollo-horno", "name": "Pollo al horno", "description": "Sazonado y horneado sin prisa.", "category": "del-dia", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "carne-guisada", "name": "Carne guisada", "description": "El guiso dominicano de siempre.", "category": "del-dia", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "pastelon-maduro", "name": "Pastelón de plátano maduro", "description": "Dulce y salado a la vez. Recomendado por nuestros visitantes.", "category": "del-dia", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "parrillada", "name": "Parrillada", "description": "Bandeja de carnes a la parrilla con longaniza, servida con tostones y guacamole.", "category": "parrilla", "price": null, "image": "/images/parrillada.webp", "featured": true, "active": true, "source": "Instagram (foto 31/10/2024) — confirmar nombre y acompañantes" },
+      { "id": "camarones-parrilla", "name": "Camarones a la parrilla", "description": "Pinchos de camarones con ajíes, marcados al fuego.", "category": "parrilla", "price": null, "image": "/images/camarones.webp", "featured": true, "active": true, "source": "Instagram (foto 22/12/2023) — confirmar nombre" },
+      { "id": "pinchos-pollo", "name": "Pinchos de pollo", "description": "Trozos de pollo con vegetales, glaseados en la parrilla.", "category": "parrilla", "price": null, "image": "/images/pinchos-pollo.webp", "featured": true, "active": true, "source": "Instagram (foto 13/04/2025) — confirmar nombre" },
+      { "id": "pechuga-plancha", "name": "Pechuga a la plancha", "description": "Fileteada sobre hojas de lechuga, con pico de gallo.", "category": "parrilla", "price": null, "image": "/images/pechuga.webp", "featured": false, "active": true, "source": "Instagram (foto 29/10/2024) — confirmar nombre" },
+      { "id": "arroz-blanco", "name": "Arroz blanco", "description": "", "category": "contornos", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "arroz-vegetales", "name": "Arroz con vegetales", "description": "", "category": "contornos", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "habichuelas", "name": "Habichuelas", "description": "", "category": "contornos", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "ensalada-aguacate", "name": "Ensalada de aguacate", "description": "", "category": "contornos", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps" },
+      { "id": "tostones", "name": "Tostones", "description": "", "category": "contornos", "price": null, "image": "", "featured": false, "active": true, "source": "Instagram (foto 31/10/2024)" },
+      { "id": "club-sandwich", "name": "Club sándwich", "description": "Por capas, cortado en triángulos y servido con papas fritas.", "category": "sandwiches", "price": null, "image": "/images/club-sandwich.webp", "featured": true, "active": true, "source": "Instagram (foto 11/11/2024) — confirmar nombre" },
+      { "id": "sandwich-jamon-queso", "name": "Sándwich de jamón y queso", "description": "Pan de molde tostado, jamón y queso derretido.", "category": "sandwiches", "price": null, "image": "/images/sandwich.webp", "featured": false, "active": true, "source": "Instagram (video 25/10/2024)" },
+      { "id": "jugos", "name": "Jugos", "description": "Pregunta por los sabores del día.", "category": "bebidas", "price": null, "image": "", "featured": false, "active": true, "source": "Reseñas en Google Maps — confirmar sabores" }
+    ]
+  },
+  "gallery": [
+    { "id": "g-fachada", "src": "/images/fachada.webp", "alt": "Fachada blanca del Parador Familiar Las Américas con su amplio parqueo bajo un cielo azul", "caption": "Llegando al km 23", "tag": "lugar" },
+    { "id": "g-terraza", "src": "/images/terraza.webp", "alt": "Terraza del segundo nivel con mesas, ventanales y palmas al fondo", "caption": "La terraza del segundo nivel", "tag": "lugar" },
+    { "id": "g-caja-china", "src": "/images/pollo-caja-china.webp", "alt": "Bandejas de pollo a la caja china recién salido", "caption": "Pollo a la caja china", "tag": "cocina" },
+    { "id": "g-salon", "src": "/images/salon.webp", "alt": "Salón principal con familias almorzando junto a grandes ventanales", "caption": "El salón a la hora del almuerzo", "tag": "lugar" },
+    { "id": "g-parrillada", "src": "/images/parrillada.webp", "alt": "Bandeja de parrillada con longaniza, tostones y guacamole", "caption": "Parrillada para compartir", "tag": "cocina" },
+    { "id": "g-camarones", "src": "/images/camarones.webp", "alt": "Pinchos de camarones a la parrilla con ajíes", "caption": "Camarones a la parrilla", "tag": "cocina" },
+    { "id": "g-market", "src": "/images/mini-market.webp", "alt": "Estantes del mini market con productos de consumo", "caption": "El mini market", "tag": "market" },
+    { "id": "g-club", "src": "/images/club-sandwich.webp", "alt": "Club sándwich con papas fritas y una bebida fría", "caption": "Club sándwich", "tag": "cocina" },
+    { "id": "g-pinchos", "src": "/images/pinchos-pollo.webp", "alt": "Pinchos de pollo con vegetales a la parrilla", "caption": "Pinchos de pollo", "tag": "cocina" },
+    { "id": "g-llevar", "src": "/images/para-llevar.webp", "alt": "Pedidos para llevar listos en envases", "caption": "Pedidos listos para llevar", "tag": "lugar" },
+    { "id": "g-pechuga", "src": "/images/pechuga.webp", "alt": "Pechuga a la plancha fileteada sobre lechuga con pico de gallo", "caption": "Pechuga a la plancha", "tag": "cocina" }
+  ],
+  "testimonials": [
+    { "text": "Muy cómodo, limpio y ordenado, música ambiental a un volumen apropiado.", "source": "Reseña en Google Maps" },
+    { "text": "Una visita muy agradable si comes en el segundo nivel.", "source": "Reseña en Google Maps" },
+    { "text": "Excelente lugar para detenerse a almorzar.", "source": "Reseña en Google Maps" }
+  ],
+  "faq": [
+    { "q": "¿Dónde quedan exactamente?", "a": "En la marginal de la Autopista Las Américas, km 23, sector El Valiente (Santo Domingo Este). Si vas hacia el este, toma la marginal de la autopista." },
+    { "q": "¿Tienen parqueo?", "a": "Sí. Hay un parqueo amplio justo frente al edificio." },
+    { "q": "¿Puedo pedir para llevar o a domicilio?", "a": "Sí. Puedes pedir para llevar en el local o recibir tu pedido a domicilio a través de PedidosYa." },
+    { "q": "¿Es un buen lugar para ir con niños?", "a": "Somos un parador familiar: ambiente tranquilo, música suave y espacio para sentarse con calma, abajo o en la terraza." },
+    { "q": "¿Qué tipo de comida sirven?", "a": "Comida típica dominicana del día —pollo, cerdo, chivo, guisos y contornos— y platos de la parrilla, además de sándwiches y bebidas." }
+  ]
+}
